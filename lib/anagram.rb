@@ -7,7 +7,7 @@ attr_reader :name
   end  
   
   def match(array)
-    array.keep_if {|str| name.split('').sort == str.split('').sort}
+    array.keep_if {|string| name.split('').sort == string.split('').sort}
   end
 
 end 
