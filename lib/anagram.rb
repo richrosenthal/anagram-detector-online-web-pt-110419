@@ -7,7 +7,7 @@ attr_reader :name
   end  
   
   def match(string)
-    binding.pry
+    array = string 
   end
   
 end 
