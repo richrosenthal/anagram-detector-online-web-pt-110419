@@ -7,7 +7,7 @@ attr_reader :name
   end  
   
   def match(array)
-    array.keep_if {|str| binding.pry}
+    array.keep_if {|str| name.splot('').sort str.split('')}
   end
-  
+
 end 
