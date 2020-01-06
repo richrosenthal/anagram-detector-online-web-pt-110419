@@ -7,7 +7,7 @@ attr_reader :name
   end  
   
   def match(string)
-    array = string 
+    
   end
   
 end 
