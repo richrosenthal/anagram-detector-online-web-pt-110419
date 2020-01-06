@@ -6,8 +6,8 @@ attr_reader :name
     @name = name
   end  
   
-  def match(string)
-    
+  def match(array)
+    array.keep_if {|str| binding.pry}
   end
   
 end 
