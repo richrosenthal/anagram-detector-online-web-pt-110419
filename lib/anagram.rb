@@ -1,3 +1,4 @@
+require 'pry'
 class Anagram 
 attr_reader :name
 
@@ -6,7 +7,7 @@ attr_reader :name
   end  
   
   def match(string)
-  
+    binding.pry
   end
   
 end 
